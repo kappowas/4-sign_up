@@ -31,7 +31,7 @@ body, html {
     display: inline-block;
     float: right;
     background-color: white;
-    margin-top: 180px;
+    margin-top: 162px;
     margin-left: 0px;
     font-size: 50px;
     width: 500px;
@@ -49,7 +49,7 @@ h1 {
     margin-top: 45px;
     margin-left: 50px;
 }
-h3 {
+.closeBtn {
     float: right;
     color: grey;
     margin-top: 5px;
@@ -58,17 +58,27 @@ h3 {
 
     font-weight: 100;
 }
+
 .privatePol{
     float: left;
     margin-top: 330px;
-    margin-left: 60px;
+    margin-left: 40px;
+    margin-right: 3px;
+    color:white;
+    
+}
+.terms{
+    float: left;
+    margin-top: 330px;
+    margin-left: 2px;
 
     color:white;
     
 }
-h4 {
+
+label {
     float:left;
-    margin-top: 35px;
+    margin-top: 44px;
     margin-bottom: 0px;
     margin-left: 60px;
     font-size: 13px;
@@ -96,23 +106,23 @@ input {
     margin-top: 0;
     margin-bottom: 0;
     overflow: hidden;
+
 }
 
 
 .getStarted {
     display: inline-block;
     float: left;
-    margin-top: 22px;
+    width: 200px;
+    margin-top: 15px;
     background-color:blue;
     border: 2px solid;
     border-radius: 26px;
-    padding-left: 60px;
-    padding-right: 60px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 17px;
     color: white;
-    margin-left: 60px;
+    margin-left: 55px;
     text-decoration: none;
 }
 .signIn {
