@@ -6,31 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" href="./img/favico.png" type="image/x-icon">
 </head>
 <body>
 
     <main>
         <div class="sing">
             <h1>Sing Up</h1>
-            <a class="privatePol" href="#">Privacy policy & terms of service</a>
+            <a class="privatePol" href="#">Privacy policy</a> <p class="terms">&</p> <a class="terms" href="#">terms of service</a>
         </div>
 
+>
+       <form class="forma" action="/action_page.php" method="get">
+        <p class="closeBtn">✕</p>
+        <label for="username">Username</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="email">E-mail</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password"><br>
+        <label for="username">Repeat password</label><br>
+        <input type="password" id="password" name="password"><br>
+        <input type="submit" class="getStarted" value="Get started">
+        <p>or</p><a class="signIn" href="#">Sign in</a>
+        
 
-        <div class="forma">
-            <h3>✕</h3>
-            <h4>Username</h4>
-            <input type="text" alt="Username">
-            <h4>E-mail</h4>
-            <input type="email" name="e-mail">
-            <h4>Password</h4>
-            <input type="password" name="password">
-            <h4>Repeat Password</h4>
-            <input type="password" name="password">
-            <a class="getStarted" href="#">Get started</a>
-            <p>or</p><a class="signIn" href="#">Sing in</a> 
 
-        </div>
 
+
+       </form>
 
     </main>
 </body>
