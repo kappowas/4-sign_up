@@ -8,26 +8,26 @@ body, html {
     align-content: center;
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  main {
+}
+main {
     display: inline-block;
     width: 850px;
     margin-left: calc((100% - 850px) / 2);
 
-  }
-  .sing {
-      display: inline-block;
-      float: left;
-      background-image: url("../img/hill.jpg");
-      background-repeat:no-repeat;
-      background-size: cover;
-      width: 350px;
-      height: 500px;
-      margin-top: 205px;
+}
+.sing {
+    display: inline-block;
+    float: left;
+    background-image: url("../img/hill.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    margin-top: 205px;
 
       
-  }
-  .forma {
+}
+.forma {
     display: inline-block;
     float: right;
     background-color: white;
