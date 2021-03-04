@@ -127,6 +127,17 @@ input {
     margin-left: 55px;
     text-decoration: none;
 }
+.forgot {
+    float: left;
+    margin-top: 15px;
+    margin-left: 60px;
+    font-size: 13px;
+    text-decoration: none;
+    color:blue;
+}
+.forgotForm {
+    width: 85%;
+}
 .signIn {
     display: inline-block;
     float: left;
